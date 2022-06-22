@@ -1,38 +1,51 @@
 @font-face {
-    /* 폰트 이름정의  */
-    font-family: 'digital-7-mono';
-    src: url(font/digital-7mono.ttf);
-}
-
-*{
+    font-family: 'digital-7mono';
+    src: url('font/digital-7mono.ttf');
+  }
+  
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
+  }
+  
+  body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
 
-.clock{
-    background: rgb(133, 132, 132);
-    box-shadow: 
-        4px 4px 8px rgba(0,0,0,0.5),
-        0 0 8px rgba(0,0,0,0.7) inset;
-    padding: 20px;
-    height: 140px;
-    /* 중앙배열  */
+  }
+
+
+  .clock {
+    background-image: url(/Group\ 2.png), url(/Group3.png);
+    background-repeat: no-repeat;
+    background-size: contain, contain;
+    background-position: 30px, 40px;
+    
+    width: 700px;
+    height: 224px;
+    /* background: #999; */
+    /* box-shadow: 
+      4px 4px 6px rgba(0,0,0, 0.3),
+      0 0 8px rgba(0,0,0,0.7) inset; */
+    /* width: 400px; */
+    /* height: 500px; */
     display: flex;
+    /* padding: 30px; */
     justify-content: center;
     align-items: center;
-    border: 10px solid black;
-    border-radius: 30px;
-    font-size: 90px;
-    font-family: 'digital-7-mono', monospace;
-}
-
-.clock .container{
+    /* border: 10px solid #333; */
+    /* border-radius: 50%; */
+    font-size: 75px;
+    font-family: 'digital-7mono', monospace;
+  }
+  
+  .clock .container {
     display: flex;
-}
+    
+
+  }
+  
+  
