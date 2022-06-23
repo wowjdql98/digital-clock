@@ -14,18 +14,28 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-
+    background-image: url(./rain.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .app > h2{
+    
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: cadetblue;
+    
   }
 
-
   .clock {
-    background-image: url(/Group\ 2.png), url(/Group3.png);
+    background-image: url(개구리.gif);
     background-repeat: no-repeat;
-    background-size: contain, contain;
+    background-size: contain;
     background-position: 30px, 40px;
     
-    width: 700px;
-    height: 224px;
+    width: 605px;
+    height: 435px;
     /* background: #999; */
     /* box-shadow: 
       4px 4px 6px rgba(0,0,0, 0.3),
@@ -38,13 +48,14 @@
     align-items: center;
     /* border: 10px solid #333; */
     /* border-radius: 50%; */
-    font-size: 75px;
+    font-size: 90px;
+    
     font-family: 'digital-7mono', monospace;
   }
   
   .clock .container {
     display: flex;
-    
+    margin-top: 80px;
 
   }
   
