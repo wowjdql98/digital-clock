@@ -6,9 +6,9 @@
 
 
 ## 사용 기술
-1.html
-2.css(flex layout)
-2.자바스크립트 , date객체
+- html
+- css(flex layout)
+- 자바스크립트 , date객체
 
 
 
