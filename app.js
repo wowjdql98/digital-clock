@@ -8,6 +8,12 @@ $(function(){
       let s = d.getSeconds(); // 초
   
       // 0 ~ 9까지는 앞에 0을 표시??
+      if (h < 10) {
+        h = '0' + h;
+      }
+      if (m < 10) {
+        m = '0' + m;
+      }
       if(s < 10) {
         s = '0' + s; 
       }
@@ -19,7 +25,7 @@ $(function(){
         if (h < 13) {
             $('.time').html('AM');
         }
-        if (h > 13) {
+        if (h >= 13) {
             $('.time').html('PM');
         }
         
@@ -27,6 +33,7 @@ $(function(){
       // 응용작품 만들기
   
       // 시간표시
+    
       $('.hour').html(h);
       $('.min').html(m);
       $('.sec').html(s);
